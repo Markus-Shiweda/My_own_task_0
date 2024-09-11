@@ -1,0 +1,5 @@
+Year	Species	PatchID	Ninds	Age	Stage
+0	0	30	50	1	1
+0	0	30	50	5	2
+0	0	30	50	1	1
+0	0	30	50	5	2
