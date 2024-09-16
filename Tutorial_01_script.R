@@ -32,7 +32,7 @@ dir.create(paste0(dirpath,"Output_Maps"), showWarnings = TRUE)
 # 1.2 Landscape parameters
 
 # We use a land-cover map of Great Britain at 1km resolution. Six dominant aggregated 
-# habitat types were derived from LandCover Map 2007 (Morton et al. 2011). 
+# habitat types were derived from LandCover Map 2007 (Morton et al. 2011).
 # The map, UKmap_1km.txt, is an ASCII raster in the standard text format, 
 # where each cell holds the code of its dominant habitat type. The habitat codes have 
 # to be given as sequential integer numbers, starting from one:
