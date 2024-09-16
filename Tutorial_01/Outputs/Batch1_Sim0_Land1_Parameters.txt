@@ -1,0 +1,81 @@
+RangeShifter 2.0 
+================    =====================
+
+BATCH MODE 	yes
+SEED 	1966971190
+REPLICATES 	5
+YEARS 	30
+REPRODUCTIVE SEASONS / YEAR	1
+CELL-BASED MODEL
+BOUNDARIES 	reflective
+
+LANDSCAPE:	imported map
+TYPE: 	habitat codes
+FILE NAME: UKmap_1km.txt
+No. HABITATS:	6
+RESOLUTION (m): 	1000
+DIMENSIONS:  X 700  Y 976
+AVAILABLE:   min.X 0 min.Y 0  max.X 699 max.Y 975
+
+SPECIES DISTRIBUTION LOADED: 	yes
+RESOLUTION (m)	10000
+FILE NAME: Species_Distribution_10km.txt
+
+ENVIRONMENTAL GRADIENT:	 no
+ENVIRONMENTAL STOCHASTICITY:	no
+LOCAL EXTINCTION PROBABILITY:	0.0
+
+SPECIES' PARAMETERS.
+REPRODUCTION:
+TYPE: Asexual / Only female model
+STAGE STRUCTURE:	no
+Rmax	1.5
+bc	1
+
+CARRYING CAPACITIES:
+Habitat 1: 	K 0
+Habitat 2: 	K 0
+Habitat 3: 	K 0
+Habitat 4: 	K 5
+Habitat 5: 	K 0
+Habitat 6: 	K 0
+
+DISPERSAL - EMIGRATION:	density-independent
+USE FULL KERNEL TO DETERMINE EMIGRATION: no
+SEX-DEPENDENT:   no
+STAGE-DEPENDENT: no
+INDIVIDUAL VARIABILITY: no
+EMIGRATION PROB.:	0.1
+
+DISPERSAL - TRANSFER: 	dispersal kernel
+TYPE: 	negative exponential
+SEX-DEPENDENT:   no
+STAGE-DEPENDENT: no
+INDIVIDUAL VARIABILITY: no
+MEAN DISTANCE I: 	2000
+DISPERSAL MORTALITY:   constant
+MORTALITY PROBABILITY: 0
+
+DISPERSAL - SETTLEMENT:
+SEX-DEPENDENT:   no
+STAGE-DEPENDENT: no
+IF THE ARRIVAL CELL/PATCH IS UNSUITABLE: die
+MATING REQUIREMENTS: no
+
+GENETICS:
+No. of variable traits:  0
+
+INITIALISATION CONDITIONS:
+From species distribution: 	
+all presence cells/patches
+INITIAL NO. OF INDIVIDUALS: 	at carrying capacity
+GEOGRAPHICAL CONSTRAINTS (cell numbers): 
+min X: 0 max X: 699
+min Y: 0 max Y: 975
+
+OUTPUTS:
+Range - every 5 years
+Occupancy - every 5 years
+Populations - every 5 years
+SAVE MAPS: no
+SAVE TRAITS MAPS: no
